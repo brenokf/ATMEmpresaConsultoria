@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atmconsultoria.cursodeandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/detalhe_empresa" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_marginBottom="19dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="@string/empresa_detalhe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="280dp"
+            android:layout_height="340dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:background="#e2dcdc"
+            android:padding="@dimen/padding_padrao">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes  priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso Clientes priorizamos nosso "
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/black" />
+        </ScrollView>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
